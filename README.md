@@ -1,7 +1,7 @@
 # Project: Machine Learning Edge Detection Algorithm
-## Goal: This method is appropriate for edge detection of particles in microscopy images. It is less accurate than the Canny edge detection algorithm but requires 48% fewer operations, thus this makes it ideal for datasets that consist of a large number of similar images.
+## Summary: This method is appropriate for edge detection of particles in microscopy images. It is less accurate than the Canny edge detection algorithm but requires 48% fewer operations, thus this makes it ideal for datasets that consist of a large number of similar images.
 
-In this work we show how you can use the Canny edge detector to create an edge detection training set. Then we train a logistic regression algorithm based on this data set and we present the edge detection results on the original image and on two similar images.
+In this work we show how you can use the Canny edge detector to create an edge detection training set. Then, we train a logistic regression algorithm based on this data set and we present the edge detection results on the original image and on two similar images.
 
 Open the .ipynb file for a step-by-step implementation of the algorithm and read the pdf report for more details.
 
@@ -14,7 +14,7 @@ If you want to run the code in your computer you will need to follow the **Insta
 The TEM particle images here are provided by the [Priestley Polymer Laboratory](http://www.princeton.edu/cbe/people/faculty/priestley/group/) in Princeton.
 
 **Features**  
-1. Pixel intensity
+1. Pixel intensity  
 2. Sobel Derivative of Pixel intensity
 
 **Target Variable**  
